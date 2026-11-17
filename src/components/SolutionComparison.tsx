@@ -10,6 +10,7 @@ import {
   CookingPot,
   DoorOpen,
   GlassWater,
+  Github,
   Handshake,
   KeyRound,
   LayoutGrid,
@@ -64,6 +65,7 @@ const ROW_ICONS = [
   Snowflake,
   Coffee,
   BadgeEuro,
+  Github,
 ] as const;
 
 const PLAN_STYLES = [

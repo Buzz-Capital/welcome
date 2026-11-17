@@ -626,10 +626,10 @@
             ]
           },
           {
-            "label": "ChatGPT Business",
+            "label": "iOS Runner hosting",
             "cells": [
-              { "type": "text", "label": "+5€" },
-              { "type": "included" },
+              { "type": "excluded" },
+              { "type": "excluded" },
               { "type": "included" },
               { "type": "included" }
             ]
