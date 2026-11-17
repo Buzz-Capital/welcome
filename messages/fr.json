@@ -646,12 +646,17 @@
               { "type": "included" },
               { "type": "included" }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "title": "Spécial développeurs",
+        "rows": [
           {
-            "label": "Hébergement Runner IOS",
+            "label": "Hébergement de votre Runner IOS",
             "cells": [
-              { "type": "excluded" },
-              { "type": "excluded" },
+              { "type": "text", "label": "+50€" },
+              { "type": "text", "label": "+50€" },
               { "type": "included" },
               { "type": "included" }
             ]
