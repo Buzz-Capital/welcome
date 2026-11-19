@@ -617,12 +617,12 @@
             ]
           },
           {
-            "label": "Major brand discounts",
+            "label": "Included AI plan (internal platform)",
             "cells": [
-              { "type": "included" },
-              { "type": "included" },
-              { "type": "included" },
-              { "type": "included" }
+              { "type": "excluded" },
+              { "type": "excluded" },
+              { "type": "text", "label": "IA10" },
+              { "type": "text", "label": "IA10" }
             ]
           }
         ]

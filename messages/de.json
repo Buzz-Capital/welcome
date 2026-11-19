@@ -632,12 +632,12 @@
             ]
           },
           {
-            "label": "Rabatte bei großen Marken",
+            "label": "Inklusives KI-Paket (interne Plattform)",
             "cells": [
-              { "type": "included" },
-              { "type": "included" },
-              { "type": "included" },
-              { "type": "included" }
+              { "type": "excluded" },
+              { "type": "excluded" },
+              { "type": "text", "label": "IA10" },
+              { "type": "text", "label": "IA10" }
             ]
           }
         ]

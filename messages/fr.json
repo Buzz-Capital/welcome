@@ -639,12 +639,12 @@
             ]
           },
           {
-            "label": "Réductions grandes enseignes",
+            "label": "Forfait IA inclus (plateforme interne)",
             "cells": [
-              { "type": "included" },
-              { "type": "included" },
-              { "type": "included" },
-              { "type": "included" }
+              { "type": "excluded" },
+              { "type": "excluded" },
+              { "type": "text", "label": "IA10" },
+              { "type": "text", "label": "IA10" }
             ]
           }
         ]

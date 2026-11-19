@@ -308,7 +308,7 @@ export function SolutionComparison({ contactTitle }: { contactTitle: string }) {
                 const rowIndex = groupOffsets[groupIndex] + index;
                 const isChatGpt = row.label === "ChatGPT Business";
                 const Icon = ROW_ICONS[rowIndex] ?? Coffee;
-                const isCse = Icon === BadgeEuro;
+                const isCse = row.label === t("cseModalTitle");
 
                 return (
                   <article
@@ -479,7 +479,7 @@ export function SolutionComparison({ contactTitle }: { contactTitle: string }) {
                     const rowIndex = groupOffsets[groupIndex] + index;
                     const isChatGpt = row.label === "ChatGPT Business";
                     const Icon = ROW_ICONS[rowIndex] ?? Coffee;
-                    const isCse = Icon === BadgeEuro;
+                    const isCse = row.label === t("cseModalTitle");
 
                     return (
                       <div
