@@ -13,6 +13,7 @@ import giftCardPrivateOfficeClouds from "@/assets/gift-card-private-office-cloud
 import giftCardRed from "@/assets/gift-card-template-red.png";
 import giftCardThankYou from "@/assets/gift-card-template-thank-you.png";
 import welcomeLogo from "@/assets/welcome-logo-cropped.png";
+import { Link } from "@/i18n/navigation";
 import { submitGiftCard, validateGiftCard } from "@/lib/gift-card.actions";
 
 type Design =
@@ -495,7 +496,18 @@ export function GiftCardShop() {
                 </div>
               </div>
             ) : (
-              <OrderReview form={form} onEdit={editOrder} t={t} />
+              <>
+                <OrderReview form={form} onEdit={editOrder} t={t} />
+                <p className="mt-6 font-inter text-sm leading-relaxed text-welcome-body">
+                  {t("form.paymentAndDelivery")}{" "}
+                  <Link
+                    href="/politique-de-confidentialite"
+                    className="font-medium underline underline-offset-4"
+                  >
+                    {t("form.orderPrivacy")}
+                  </Link>
+                </p>
+              </>
             )}
 
             <button

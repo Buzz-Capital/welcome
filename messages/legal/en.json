@@ -2,7 +2,7 @@
   "mentionsLegales": {
     "titleLead": "Legal",
     "titleHighlight": "notice",
-    "intro": "Information about the publisher of welcome-coworking.com, in accordance with article 6 of French act no. 2004-575 of 21 June 2004 on confidence in the digital economy.",
+    "intro": "Information about the publisher of welcome-coworking.com, in accordance with article 1-1 of French act no. 2004-575 of 21 June 2004 on confidence in the digital economy.",
     "publisherTitle": "Website publisher",
     "publisherRows": [
       { "label": "Company name", "value": "BUZZ CAPITAL" },
@@ -21,7 +21,7 @@
         "label": "Business activity code (NAF/APE)",
         "value": "8211Z — Combined office administrative services"
       },
-      { "label": "Date of incorporation", "value": "15 February 2017" },
+      { "label": "Date of incorporation", "value": "1 February 2017" },
       { "label": "Chair / Editorial director", "value": "Julien Moyne" },
       { "label": "Phone", "value": "+33 6 22 80 55 36", "link": "tel" },
       { "label": "Email", "value": "contact@welcome-coworking.com", "link": "mailto" }
@@ -39,7 +39,7 @@
         "title": "Purpose of the site",
         "paragraphs": [
           "The purpose of this site is to present the spaces, plans and services of the Welcome coworking space at 204 avenue de Colmar in Strasbourg, and to allow visitors to get in touch or arrange a visit.",
-          "No online sales are carried out on this site. Services are subject to contracts and terms communicated separately."
+          "The site also offers gift vouchers for purchase online. Other services are subject to contracts and terms communicated separately."
         ]
       },
       {
@@ -79,7 +79,7 @@
       {
         "title": "Applicable law",
         "paragraphs": [
-          "This legal notice is governed by French law. In the event of a dispute, and failing an amicable settlement, the competent courts shall be those of the Strasbourg jurisdiction."
+          "This legal notice is governed by French law. In the event of a dispute, and failing an amicable settlement, the dispute will be heard by the courts with jurisdiction under the applicable rules."
         ]
       }
     ]
@@ -94,7 +94,7 @@
         "title": "1. Purpose",
         "paragraphs": [
           "These terms of use (the \"Terms\") set out the conditions for accessing and using the welcome-coworking.com website (the \"Site\"), published by BUZZ CAPITAL, a simplified joint-stock company with share capital of €10,000, registered with the Strasbourg Trade Register under number 825 282 551, whose registered office is at 204 avenue de Colmar, 67100 Strasbourg.",
-          "The Site is a showcase site presenting the spaces, plans and services of the Welcome coworking space. No sales or paid bookings are made online."
+          "The Site presents Welcome Coworking’s spaces, plans and services and offers gift vouchers for purchase online."
         ]
       },
       {
@@ -152,7 +152,7 @@
       {
         "title": "10. Applicable law and disputes",
         "paragraphs": [
-          "These Terms are governed by French law. In the event of a dispute, and failing an amicable settlement, the competent courts shall be those of the Strasbourg jurisdiction.",
+          "These Terms are governed by French law. In the event of a dispute, and failing an amicable settlement, the dispute will be heard by the courts with jurisdiction under the applicable rules.",
           "Any question relating to the Terms may be sent to contact@welcome-coworking.com."
         ]
       }
@@ -189,7 +189,7 @@
       {
         "title": "Data collected",
         "paragraphs": [
-          "We collect only the data needed to get in touch and to arrange a visit where applicable: surname, first name, email address, phone number and the content of your message.",
+          "The contact form collects the data needed to get in touch and to arrange a visit where applicable: surname, first name, email address, phone number and the content of your message.",
           "This data is provided voluntarily through the contact form. No data is collected automatically for advertising profiling purposes."
         ]
       },
@@ -204,6 +204,13 @@
         "paragraphs": [
           "Only the managers and staff of Welcome Coworking authorised to handle your enquiry have access to your data. It is not sold, rented or transferred to third parties for commercial purposes.",
           "The site is hosted by Vercel Inc., which may host the technical data associated with messages. This processor acts under the responsibility of BUZZ CAPITAL and in compliance with GDPR obligations."
+        ]
+      },
+      {
+        "title": "Gift voucher orders",
+        "paragraphs": [
+          "To process your order, we use your name, customer type, billing address and email address, as well as the voucher amount and personalisation details. We use this information to manage the order, process the payment and email you the voucher after payment. The purchaser’s data needed to fulfil the order is processed to perform the contract.",
+          "Card payments take place on Stancer’s secure payment page. Stancer receives the purchaser’s name and email address, the amount and the voucher personalisation details required to generate it after payment. Our email service provider delivers order emails."
         ]
       },
       {
@@ -291,7 +298,8 @@
         "title": "Analytics cookies",
         "paragraphs": [
           "With your consent, the site uses Google Analytics 4 (measurement ID G-P877RD6HJH) to measure its audience and help improve it. Without consent, Analytics storage remains denied.",
-          "Google advertising purposes remain disabled, including after acceptance. The site currently grants no consent for advertising storage, advertising user data or advertising personalisation."
+          "Google advertising purposes remain disabled, including after acceptance. The site currently grants no consent for advertising storage, advertising user data or advertising personalisation.",
+          "Vercel Web Analytics measures visits without cookies and Vercel Speed Insights measures loading performance. These measurements are separate from Google Analytics and operate independently of your choice in the banner."
         ]
       },
       {
@@ -303,7 +311,7 @@
       {
         "title": "Managing cookies",
         "paragraphs": [
-          "You can accept or refuse Google Analytics from the banner. Closing the banner is treated as a refusal. Your choice is stored in your browser and can be removed by deleting the site's data.",
+          "You can accept or refuse Google Analytics from the banner. Closing the banner is treated as a refusal. Your choice is stored in your browser. You can change it or withdraw your consent at any time from the Manage cookies page.",
           "To find out more about managing cookies in your browser, see the dedicated help pages for Google Chrome, Mozilla Firefox, Safari or Microsoft Edge."
         ]
       },

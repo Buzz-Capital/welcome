@@ -1048,6 +1048,8 @@
       "nextSteps": "The next step displays your personalised voucher and full order summary. No payment is initiated until your final confirmation.",
       "checking": "Checking…",
       "nextButton": "Next step 1/2",
+      "paymentAndDelivery": "Card payment takes place on Stancer. The voucher is valid for two years from its issue date and is sent to your email address after payment.",
+      "orderPrivacy": "Privacy policy",
       "payButton": "Confirm and pay 2/2",
       "redirecting": "Redirecting to payment…",
       "reviewTitle": "Review your order",

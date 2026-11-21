@@ -1066,6 +1066,8 @@
       "nextSteps": "Im nächsten Schritt sehen Sie Ihren personalisierten Gutschein und die vollständige Bestellübersicht. Vor Ihrer abschließenden Bestätigung wird keine Zahlung ausgelöst.",
       "checking": "Wird geprüft…",
       "nextButton": "Nächster Schritt 1/2",
+      "paymentAndDelivery": "Die Kartenzahlung erfolgt über Stancer. Der Gutschein ist ab Ausstellungsdatum zwei Jahre gültig und wird nach der Zahlung an Ihre E-Mail-Adresse gesendet.",
+      "orderPrivacy": "Datenschutzerklärung",
       "payButton": "Bestätigen und bezahlen 2/2",
       "redirecting": "Weiterleitung zur Zahlung…",
       "reviewTitle": "Prüfen Sie Ihre Bestellung",

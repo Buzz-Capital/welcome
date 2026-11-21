@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
+import { CookieBanner } from "@/components/CookieBanner";
 import { JsonLd } from "@/components/JsonLd";
 import { LegalPage } from "@/components/legal/LegalPage";
 import { routing } from "@/i18n/routing";
@@ -44,6 +45,8 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           ])}
         />
       }
-    />
+    >
+      <CookieBanner manage />
+    </LegalPage>
   );
 }

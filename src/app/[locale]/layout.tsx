@@ -5,7 +5,6 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { ReactNode } from "react";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 
 import { CookieBanner } from "@/components/CookieBanner";
@@ -89,6 +88,7 @@ export default async function LocaleLayout({
         <Script id="google-consent-default" strategy="beforeInteractive">
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
+gtag("set", { allow_google_signals: false, allow_ad_personalization_signals: false });
 gtag("consent", "default", {
   analytics_storage: "denied",
   ad_storage: "denied",
@@ -119,10 +119,6 @@ try {
         </NextIntlClientProvider>
         <JsonLd data={organizationJsonLd()} />
       </body>
-      <GoogleAnalytics gaId="G-P877RD6HJH" />
-      <Script id="google-ads-config" strategy="afterInteractive">
-        {`gtag("config", "AW-991226504");`}
-      </Script>
     </html>
   );
 }

@@ -1,78 +1,114 @@
 "use client";
 
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Cookie, X } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useEffect, useState, useSyncExternalStore } from "react";
+import { useSyncExternalStore } from "react";
 
 import { Link } from "@/i18n/navigation";
 
 const STORAGE_KEY = "welcome-cookie-consent";
+const CONSENT_EVENT = "welcome-cookie-consent-change";
+const GA_ID = "G-P877RD6HJH";
 
 type ConsentChoice = "accepted" | "refused";
 
-function updateGoogleConsent(choice: ConsentChoice) {
+let currentChoice: ConsentChoice | null = null;
+
+function readConsent(): ConsentChoice | null {
+  if (currentChoice) return currentChoice;
+
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    return saved === "accepted" || saved === "refused" ? saved : null;
+  } catch {
+    return null;
+  }
+}
+
+function updateGoogleConsent(choice: ConsentChoice | null) {
   const win = window as typeof window & {
-    dataLayer?: unknown[];
     gtag?: (...args: unknown[]) => void;
   };
+  const accepted = choice === "accepted";
 
-  win.dataLayer = win.dataLayer || [];
-
-  if (!win.gtag) {
-    win.gtag = (...args: unknown[]) => {
-      win.dataLayer?.push(args);
-    };
-  }
-
-  win.gtag("consent", "update", {
-    analytics_storage: choice === "accepted" ? "granted" : "denied",
+  Object.assign(win, { [`ga-disable-${GA_ID}`]: !accepted });
+  win.gtag?.("consent", "update", {
+    analytics_storage: accepted ? "granted" : "denied",
     ad_storage: "denied",
     ad_user_data: "denied",
     ad_personalization: "denied",
   });
 }
 
-export function CookieBanner() {
+function subscribeToConsent(onChange: () => void) {
+  function onStorage(event: StorageEvent) {
+    if (event.key !== null && event.key !== STORAGE_KEY) return;
+
+    currentChoice = null;
+    updateGoogleConsent(readConsent());
+    onChange();
+  }
+
+  window.addEventListener(CONSENT_EVENT, onChange);
+  window.addEventListener("storage", onStorage);
+  return () => {
+    window.removeEventListener(CONSENT_EVENT, onChange);
+    window.removeEventListener("storage", onStorage);
+  };
+}
+
+function saveConsent(choice: ConsentChoice) {
+  currentChoice = choice;
+  try {
+    localStorage.setItem(STORAGE_KEY, choice);
+  } catch {
+    /* Le choix reste disponible pour cette page. */
+  }
+
+  updateGoogleConsent(choice);
+  window.dispatchEvent(new Event(CONSENT_EVENT));
+}
+
+const noSubscription = () => () => undefined;
+
+export function CookieBanner({ manage = false }: { manage?: boolean }) {
   const t = useTranslations("cookieBanner");
-  const [dismissed, setDismissed] = useState(false);
-  const needsConsent = useSyncExternalStore(
-    () => () => undefined,
-    () => {
-      try {
-        const consent = localStorage.getItem(STORAGE_KEY);
-        return consent !== "accepted" && consent !== "refused";
-      } catch {
-        return true;
-      }
-    },
+  const consent = useSyncExternalStore(subscribeToConsent, readConsent, () => null);
+  const hydrated = useSyncExternalStore(
+    noSubscription,
+    () => true,
     () => false,
   );
-
-  useEffect(() => {
-    try {
-      const consent = localStorage.getItem(STORAGE_KEY);
-
-      if (consent === "accepted" || consent === "refused") {
-        updateGoogleConsent(consent);
-      }
-    } catch {}
-  }, []);
-
-  const saveConsent = (choice: ConsentChoice) => {
-    try {
-      localStorage.setItem(STORAGE_KEY, choice);
-    } catch {
-      /* stockage indisponible */
-    }
-
-    updateGoogleConsent(choice);
-    setDismissed(true);
-  };
 
   const accept = () => saveConsent("accepted");
   const refuse = () => saveConsent("refused");
 
-  if (!needsConsent || dismissed) return null;
+  if (manage) {
+    return (
+      <section className="mt-8 flex flex-wrap gap-3" aria-label={t("manage")}>
+        <button
+          type="button"
+          onClick={refuse}
+          aria-pressed={consent === "refused"}
+          className="rounded-xl border border-welcome-black/10 px-5 py-3 font-semibold text-welcome-black aria-pressed:bg-welcome-cream"
+        >
+          {t("refuseAnalytics")}
+        </button>
+        <button
+          type="button"
+          onClick={accept}
+          aria-pressed={consent === "accepted"}
+          className="rounded-xl border border-welcome-black/10 px-5 py-3 font-semibold text-welcome-black aria-pressed:bg-welcome-gold"
+        >
+          {t("acceptAnalytics")}
+        </button>
+      </section>
+    );
+  }
+
+  if (consent === "accepted") return <GoogleAnalytics gaId={GA_ID} />;
+  if (!hydrated || consent === "refused") return null;
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-[70] px-4 pb-4 sm:px-6 sm:pb-6">

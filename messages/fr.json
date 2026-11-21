@@ -1073,6 +1073,8 @@
       "nextSteps": "L’étape suivante affiche votre bon personnalisé et le récapitulatif complet. Aucun paiement n’est déclenché avant votre validation finale.",
       "checking": "Vérification…",
       "nextButton": "Étape suivante 1/2",
+      "paymentAndDelivery": "Le paiement par carte se fait sur Stancer. Le bon est valable deux ans à compter de son émission et est envoyé à votre adresse e-mail après paiement.",
+      "orderPrivacy": "Politique de confidentialité",
       "payButton": "Valider et payer 2/2",
       "redirecting": "Redirection vers le paiement…",
       "reviewTitle": "Vérifiez votre commande",

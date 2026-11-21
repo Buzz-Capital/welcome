@@ -18,7 +18,15 @@ type Guide = { name: string; steps: string[] };
  * guides par navigateur, liste des droits) sont détectés par présence de clé via
  * `t.has()`. Cela évite six composants quasi identiques.
  */
-export function LegalPage({ namespace, jsonLd }: { namespace: string; jsonLd: ReactNode }) {
+export function LegalPage({
+  namespace,
+  jsonLd,
+  children,
+}: {
+  namespace: string;
+  jsonLd: ReactNode;
+  children?: ReactNode;
+}) {
   const t = useTranslations(namespace);
   const tCommon = useTranslations("common");
 
@@ -48,6 +56,7 @@ export function LegalPage({ namespace, jsonLd }: { namespace: string; jsonLd: Re
           {t("titleLead")} <span className="text-welcome-gold">{t("titleHighlight")}</span>
         </h1>
         <p className="mt-6 font-inter text-[16px] leading-[1.75] text-welcome-body">{t("intro")}</p>
+        {children}
 
         {hasRows && (
           <section className="mt-14">

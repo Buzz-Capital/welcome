@@ -2,7 +2,7 @@
   "mentionsLegales": {
     "titleLead": "Mentions",
     "titleHighlight": "légales",
-    "intro": "Informations relatives à l'éditeur du site welcome-coworking.com, conformément à l'article 6 de la loi n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique.",
+    "intro": "Informations relatives à l'éditeur du site welcome-coworking.com, conformément à l'article 1-1 de la loi n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique.",
     "publisherTitle": "Éditeur du site",
     "publisherRows": [
       { "label": "Dénomination sociale", "value": "BUZZ CAPITAL" },
@@ -18,7 +18,7 @@
         "label": "Code d'activité (NAF/APE)",
         "value": "8211Z — Services administratifs combinés de bureau"
       },
-      { "label": "Date de création", "value": "15 février 2017" },
+      { "label": "Date de création", "value": "1er février 2017" },
       { "label": "Président / Directeur de la publication", "value": "Julien Moyne" },
       { "label": "Téléphone", "value": "+33 6 22 80 55 36", "link": "tel" },
       { "label": "E-mail", "value": "contact@welcome-coworking.com", "link": "mailto" }
@@ -36,7 +36,7 @@
         "title": "Objet du site",
         "paragraphs": [
           "Le présent site a pour objet de présenter les espaces, les formules et les services de l'espace de coworking Welcome, situé 204 avenue de Colmar à Strasbourg, ainsi que de permettre aux visiteurs de prendre contact ou d'organiser une visite.",
-          "Aucune vente en ligne n'est réalisée sur ce site. Les prestations font l'objet de contrats et de conditions communiqués séparément."
+          "Le site propose également l'achat de bons cadeaux en ligne. Les autres prestations font l'objet de contrats et de conditions communiqués séparément."
         ]
       },
       {
@@ -76,7 +76,7 @@
       {
         "title": "Droit applicable",
         "paragraphs": [
-          "Les présentes mentions légales sont soumises au droit français. En cas de litige, et à défaut de résolution amiable, les tribunaux compétents seront ceux du ressort de Strasbourg."
+          "Les présentes mentions légales sont soumises au droit français. En cas de litige, et à défaut de résolution amiable, le litige relève des juridictions compétentes selon les règles applicables."
         ]
       }
     ]
@@ -91,7 +91,7 @@
         "title": "1. Objet",
         "paragraphs": [
           "Les présentes conditions générales d'utilisation (les « CGU ») définissent les modalités d'accès et d'utilisation du site welcome-coworking.com (le « Site »), édité par la société BUZZ CAPITAL, SAS au capital de 10 000 €, immatriculée au RCS de Strasbourg sous le numéro 825 282 551, dont le siège social est situé 204 avenue de Colmar, 67100 Strasbourg.",
-          "Le Site est un site vitrine présentant les espaces, les formules et les services de l'espace de coworking Welcome. Aucune vente ni réservation payante n'est réalisée en ligne."
+          "Le Site présente les espaces, les formules et les services de Welcome Coworking et propose l'achat de bons cadeaux en ligne."
         ]
       },
       {
@@ -149,7 +149,7 @@
       {
         "title": "10. Droit applicable et litiges",
         "paragraphs": [
-          "Les présentes CGU sont soumises au droit français. En cas de litige, et à défaut de résolution amiable, les tribunaux compétents seront ceux du ressort de Strasbourg.",
+          "Les présentes CGU sont soumises au droit français. En cas de litige, et à défaut de résolution amiable, le litige relève des juridictions compétentes selon les règles applicables.",
           "Toute question relative aux CGU peut être adressée à contact@welcome-coworking.com."
         ]
       }
@@ -186,7 +186,7 @@
       {
         "title": "Données collectées",
         "paragraphs": [
-          "Nous collectons uniquement les données nécessaires à la prise de contact et à l'organisation éventuelle d'une visite : nom, prénom, adresse e-mail, numéro de téléphone et contenu du message.",
+          "Le formulaire de contact recueille les données nécessaires à la prise de contact et à l'organisation éventuelle d'une visite : nom, prénom, adresse e-mail, numéro de téléphone et contenu du message.",
           "Ces données sont fournies volontairement via le formulaire de contact. Aucune donnée n'est collectée automatiquement à des fins de profilage publicitaire."
         ]
       },
@@ -201,6 +201,13 @@
         "paragraphs": [
           "Seuls les responsables et collaborateurs de Welcome Coworking habilités à traiter votre demande ont accès à vos données. Elles ne sont pas vendues, louées ni cédées à des tiers à des fins commerciales.",
           "L'hébergement du site est assuré par Vercel Inc., qui peut être amenée à héberger les données techniques liées aux messages. Ce sous-traitant agit sous la responsabilité de BUZZ CAPITAL et dans le respect des obligations du RGPD."
+        ]
+      },
+      {
+        "title": "Commandes de bons cadeaux",
+        "paragraphs": [
+          "Pour traiter votre commande, nous utilisons votre identité, votre catégorie de client, votre adresse de facturation et votre adresse e-mail, ainsi que le montant et les informations de personnalisation du bon. Ces données servent à gérer la commande, traiter le paiement et vous envoyer le bon par e-mail après paiement. Les données de l’acheteur nécessaires à la commande sont traitées pour exécuter le contrat.",
+          "Le paiement par carte se déroule sur la page sécurisée de Stancer. Stancer reçoit le nom et l’adresse e-mail de l’acheteur, le montant et les informations de personnalisation du bon nécessaires à sa génération après paiement. Notre prestataire de messagerie achemine les e-mails liés à la commande."
         ]
       },
       {
@@ -288,7 +295,8 @@
         "title": "Cookies de mesure d'audience",
         "paragraphs": [
           "Avec votre consentement, le site utilise Google Analytics 4 (identifiant G-P877RD6HJH) pour mesurer l'audience et contribuer à son amélioration. Sans consentement, le stockage Analytics reste refusé.",
-          "Les finalités publicitaires Google restent désactivées, y compris après une acceptation. Le site n'accorde actuellement aucun consentement au stockage publicitaire, aux données utilisateur publicitaires ni à la personnalisation publicitaire."
+          "Les finalités publicitaires Google restent désactivées, y compris après une acceptation. Le site n'accorde actuellement aucun consentement au stockage publicitaire, aux données utilisateur publicitaires ni à la personnalisation publicitaire.",
+          "Vercel Web Analytics mesure les visites sans cookies et Vercel Speed Insights mesure les performances de chargement. Ces mesures sont distinctes de Google Analytics et ne dépendent pas du choix effectué dans le bandeau."
         ]
       },
       {
@@ -300,7 +308,7 @@
       {
         "title": "Gestion des cookies",
         "paragraphs": [
-          "Vous pouvez accepter ou refuser Google Analytics depuis le bandeau. Le bouton de fermeture équivaut à un refus. Votre choix est mémorisé dans votre navigateur et peut être supprimé avec les données du site.",
+          "Vous pouvez accepter ou refuser Google Analytics depuis le bandeau. Le bouton de fermeture équivaut à un refus. Votre choix est mémorisé dans votre navigateur. Vous pouvez le modifier ou retirer votre consentement à tout moment depuis la page « Gestion des cookies ».",
           "Pour en savoir plus sur la gestion des cookies selon votre navigateur, vous pouvez consulter les pages d'aide dédiées de Google Chrome, Mozilla Firefox, Safari ou Microsoft Edge."
         ]
       },

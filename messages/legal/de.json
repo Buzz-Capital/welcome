@@ -2,7 +2,7 @@
   "mentionsLegales": {
     "titleLead": "",
     "titleHighlight": "Impressum",
-    "intro": "Angaben zum Herausgeber der Website welcome-coworking.com gemäß Artikel 6 des französischen Gesetzes Nr. 2004-575 vom 21. Juni 2004 über das Vertrauen in die digitale Wirtschaft.",
+    "intro": "Angaben zum Herausgeber der Website welcome-coworking.com gemäß Artikel 1-1 des französischen Gesetzes Nr. 2004-575 vom 21. Juni 2004 über das Vertrauen in die digitale Wirtschaft.",
     "publisherTitle": "Herausgeber der Website",
     "publisherRows": [
       { "label": "Firmenname", "value": "BUZZ CAPITAL" },
@@ -18,7 +18,7 @@
         "label": "Tätigkeitsschlüssel (NAF/APE)",
         "value": "8211Z — Kombinierte Büroverwaltungsdienstleistungen"
       },
-      { "label": "Gründungsdatum", "value": "15. Februar 2017" },
+      { "label": "Gründungsdatum", "value": "1. Februar 2017" },
       { "label": "Präsident / Verantwortlicher", "value": "Julien Moyne" },
       { "label": "Telefon", "value": "+33 6 22 80 55 36", "link": "tel" },
       { "label": "E-Mail", "value": "contact@welcome-coworking.com", "link": "mailto" }
@@ -36,7 +36,7 @@
         "title": "Zweck der Website",
         "paragraphs": [
           "Zweck dieser Website ist die Darstellung der Räume, Tarife und Leistungen des Coworking-Space Welcome in der 204 avenue de Colmar in Straßburg sowie die Möglichkeit für Besucher, Kontakt aufzunehmen oder eine Besichtigung zu vereinbaren.",
-          "Über diese Website findet kein Online-Verkauf statt. Die Leistungen sind Gegenstand gesondert mitgeteilter Verträge und Bedingungen."
+          "Über die Website können auch Geschenkgutscheine online gekauft werden. Für die übrigen Leistungen gelten gesondert mitgeteilte Verträge und Bedingungen."
         ]
       },
       {
@@ -76,7 +76,7 @@
       {
         "title": "Anwendbares Recht",
         "paragraphs": [
-          "Dieses Impressum unterliegt französischem Recht. Im Streitfall und in Ermangelung einer gütlichen Einigung sind die Gerichte im Bezirk Straßburg zuständig."
+          "Dieses Impressum unterliegt französischem Recht. Im Streitfall und in Ermangelung einer gütlichen Einigung sind die Gerichte nach den geltenden Zuständigkeitsregeln zuständig."
         ]
       }
     ]
@@ -91,7 +91,7 @@
         "title": "1. Gegenstand",
         "paragraphs": [
           "Diese Nutzungsbedingungen (die „Bedingungen“) regeln den Zugang zu und die Nutzung der Website welcome-coworking.com (die „Website“), herausgegeben von BUZZ CAPITAL, vereinfachte Aktiengesellschaft mit einem Stammkapital von 10.000 €, eingetragen im Handelsregister Straßburg unter der Nummer 825 282 551, mit Sitz in 204 avenue de Colmar, 67100 Straßburg.",
-          "Die Website ist eine Präsentationsseite für die Räume, Tarife und Leistungen des Coworking-Space Welcome. Es finden online keine Verkäufe oder kostenpflichtigen Buchungen statt."
+          "Die Website stellt die Räume, Tarife und Leistungen von Welcome Coworking vor und bietet Geschenkgutscheine zum Online-Kauf an."
         ]
       },
       {
@@ -149,7 +149,7 @@
       {
         "title": "10. Anwendbares Recht und Streitigkeiten",
         "paragraphs": [
-          "Diese Bedingungen unterliegen französischem Recht. Im Streitfall und in Ermangelung einer gütlichen Einigung sind die Gerichte im Bezirk Straßburg zuständig.",
+          "Diese Bedingungen unterliegen französischem Recht. Im Streitfall und in Ermangelung einer gütlichen Einigung sind die Gerichte nach den geltenden Zuständigkeitsregeln zuständig.",
           "Fragen zu den Bedingungen können an contact@welcome-coworking.com gerichtet werden."
         ]
       }
@@ -186,7 +186,7 @@
       {
         "title": "Erhobene Daten",
         "paragraphs": [
-          "Wir erheben ausschließlich die für die Kontaktaufnahme und die etwaige Vereinbarung einer Besichtigung erforderlichen Daten: Name, Vorname, E-Mail-Adresse, Telefonnummer und Inhalt der Nachricht.",
+          "Das Kontaktformular erfasst die für die Kontaktaufnahme und die etwaige Vereinbarung einer Besichtigung erforderlichen Daten: Name, Vorname, E-Mail-Adresse, Telefonnummer und Inhalt der Nachricht.",
           "Diese Daten werden freiwillig über das Kontaktformular übermittelt. Es werden keine Daten automatisch zu Zwecken der Werbeprofilbildung erhoben."
         ]
       },
@@ -201,6 +201,13 @@
         "paragraphs": [
           "Nur die zur Bearbeitung Ihrer Anfrage befugten Verantwortlichen und Mitarbeitenden von Welcome Coworking haben Zugang zu Ihren Daten. Sie werden nicht verkauft, vermietet oder zu kommerziellen Zwecken an Dritte weitergegeben.",
           "Das Hosting der Website erfolgt bei Vercel Inc., das gegebenenfalls die technischen Daten der Nachrichten hostet. Dieser Auftragsverarbeiter handelt unter der Verantwortung von BUZZ CAPITAL und unter Einhaltung der Pflichten der DSGVO."
+        ]
+      },
+      {
+        "title": "Bestellungen von Geschenkgutscheinen",
+        "paragraphs": [
+          "Zur Bearbeitung Ihrer Bestellung verwenden wir Ihren Namen, Ihre Kundenkategorie, Ihre Rechnungsadresse und Ihre E-Mail-Adresse sowie den Gutscheinbetrag und die Angaben zur Personalisierung. Diese Daten dienen der Bestell- und Zahlungsabwicklung sowie dem Versand des Gutscheins per E-Mail nach der Zahlung. Die zur Abwicklung der Bestellung erforderlichen Daten des Käufers werden zur Vertragserfüllung verarbeitet.",
+          "Die Kartenzahlung erfolgt auf der sicheren Zahlungsseite von Stancer. Stancer erhält den Namen und die E-Mail-Adresse des Käufers, den Betrag und die Angaben zur Personalisierung, die zur Erstellung des Gutscheins nach der Zahlung erforderlich sind. Unser E-Mail-Dienstleister übermittelt die E-Mails zur Bestellung."
         ]
       },
       {
@@ -288,7 +295,8 @@
         "title": "Cookies zur Reichweitenmessung",
         "paragraphs": [
           "Mit Ihrer Einwilligung verwendet die Website Google Analytics 4 (Mess-ID G-P877RD6HJH), um ihre Reichweite zu messen und sie zu verbessern. Ohne Einwilligung bleibt der Analytics-Speicher abgelehnt.",
-          "Die Werbezwecke von Google bleiben auch nach einer Zustimmung deaktiviert. Die Website erteilt derzeit keine Einwilligung für Werbespeicher, werbebezogene Nutzerdaten oder personalisierte Werbung."
+          "Die Werbezwecke von Google bleiben auch nach einer Zustimmung deaktiviert. Die Website erteilt derzeit keine Einwilligung für Werbespeicher, werbebezogene Nutzerdaten oder personalisierte Werbung.",
+          "Vercel Web Analytics misst Besuche ohne Cookies und Vercel Speed Insights misst die Ladeleistung. Diese Messungen erfolgen getrennt von Google Analytics und unabhängig von Ihrer Auswahl im Hinweis."
         ]
       },
       {
@@ -300,7 +308,7 @@
       {
         "title": "Verwaltung der Cookies",
         "paragraphs": [
-          "Sie können Google Analytics über den Hinweis akzeptieren oder ablehnen. Das Schließen des Hinweises gilt als Ablehnung. Ihre Entscheidung wird im Browser gespeichert und kann durch Löschen der Websitedaten entfernt werden.",
+          "Sie können Google Analytics über den Hinweis akzeptieren oder ablehnen. Das Schließen des Hinweises gilt als Ablehnung. Ihre Entscheidung wird im Browser gespeichert. Auf der Seite „Cookies verwalten“ können Sie Ihre Entscheidung jederzeit ändern oder Ihre Einwilligung widerrufen.",
           "Weitere Informationen zur Verwaltung von Cookies in Ihrem Browser finden Sie auf den entsprechenden Hilfeseiten von Google Chrome, Mozilla Firefox, Safari oder Microsoft Edge."
         ]
       },
